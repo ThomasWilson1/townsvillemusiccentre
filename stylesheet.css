@@ -56,6 +56,7 @@
 	position: absolute;
 	margin-left:15px;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	top:0px;
 }
 .artistbutton{
 	width:180px;
@@ -69,43 +70,41 @@
 	margin-left: 18px;
 	margin-top: -20px;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
-}
-body{
-	margin:0 auto;
+	margin-bottom: 15%;
 }
 .content{
-	height:100%;
-	top: 267px;
-	bottom: 29px;
+	position: relative;
+	margin-top:0px;
+	top: 0px;
 	right:0;
 	left: 0;
-	position: absolute;
 	text-align: left;
 	border-left: thin solid black;
 	border-right: thin solid black;
 	width:70%;
 	margin: 0 auto;
-	padding-bottom: 20px;
 	background-color: white;
+	height: 100%;
 }
 /* Shadow on the left*/
 .contentleft{
 	border-left: black 1px solid;
 	box-shadow: -2px 0px 2px #888;
 	height: 100%;
+	margin: 0 auto;
 }
 /*Shadow on the right*/
 .contentright{
 	border-right: black 1px solid;
 	box-shadow: 2px 0px 2px #888;
 	height: 100%;
+	margin: 0 auto;
 }
 .copyright{
 	height: 30px;
 	background-color: #0099FF;
 	border-top: thin solid black;
 	text-align: center;
-	line-height: 1.5;
 	z-index: 1;
 }
 .artistpage{
@@ -115,11 +114,19 @@ body{
     top:0px;
     left:0px;
 }
-body{
-	background-color: blanchedalmond;
-	padding: 0;
-	margin: 0;
+#body{
+	top: 0px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 100%;
+}
+#body{
 	height: 100%;
+}
+body{
+	margin: 0 auto;
+	padding: 0;
+	background-color: blanchedalmond;
 }
 .homepage{
 	position: fixed;
@@ -134,16 +141,16 @@ body{
 	bottom: 30px;
 	border-top: thin solid black;
 }
-footer{
-	position:absolute;
-	bottom: 0;
-	width: 100%;
-	height: 130px;
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 0px;
+margin: 0 auto;
+text-align: center;
 }
-.body{
-	padding: 10px;
-	padding-bottom: 130px;
-}
+
+
 /* Slideshow elements */
 
 * {box-sizing:border-box}
