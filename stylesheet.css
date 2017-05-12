@@ -7,6 +7,14 @@
 	background-color: white;
 	margin-bottom: 0px;
 }
+h4 {
+	font-size: 20px;
+}
+.peoplesphotos{
+	display: inline-block;
+	margin-left: 30px;
+	align-content: center;
+}
 .navigation{
 	width: 100%;
 	height: 60px;
@@ -50,7 +58,7 @@
 }
 .artisttext{
 	padding-top: 50px;
-	width: 70%px;
+	width: 70%;
 	text-align: justify;
 	height: 100%;
 	padding-left: 1.5em;
@@ -110,11 +118,11 @@
 	font-weight: bolder;
 	text-decoration: underline;
 	font-size: 30px;
-	padding-left: 15px;
+	padding-left: 30px;
 	width:180px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	display: inline-block;
+	display: inline;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 }
 .eventstitle{
