@@ -25,6 +25,10 @@
 	font-size: 18px;
 	line-height: 3.4;
 	border-right: solid thin black;
+	border-left:solid thin black;
+}
+.navigation :hover{
+	background-color: blue;
 }
 .leftline{
 	border-left: solid thin black;
@@ -71,6 +75,80 @@
 	margin-top: -20px;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 	margin-bottom: 15%;
+}
+.historytext{
+	line-height: 1.5;
+	Width: 70%;
+	height: 50%;
+	text-align: Left;
+	margin-left: 30%;
+	padding-left: 20px;
+	padding-top:6%;
+	padding-bottom: 10%;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.historytitle{
+	text-align:left;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 30px;
+	margin-top: 0;
+	padding-left: 15px;
+	width:180px;
+	top: 10px;
+	position: absolute;
+	display: inline-block;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.historyimg{
+	top: 12%;
+	margin-left: 15px;
+	position: absolute;
+}
+.peoplestitle{
+	text-align:left;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 30px;
+	padding-left: 15px;
+	width:180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.eventstitle{
+	text-align:left;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 30px;
+	padding-left: 15px;
+	width:180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.newstitle{
+	text-align:left;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 30px;
+	padding-left: 15px;
+	width:180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+.newstext{
+	Width: 70%;
+	height: 10%;
+	text-align: Left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 }
 .content{
 	position: relative;
