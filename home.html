@@ -7,32 +7,114 @@
 <script type="text/javascript" src="javascript.js"></script>
 </head>
 <!--To lock page copy .artistpage class elements-->
-<body class="homepage">
-<div class="banner"><img src="images/banner.jpg" alt="banner"></div>
+<body>
+<div class="banner"><a href="home.html"><img src="images/banner.jpg" alt="banner"></a></div>
 <ul class="navigation">
 	<li class="leftline"><a>Contact Us</a></li>
-	<li><a>About Us</a></li>
-	<li><a>Events</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="events.html">Events</a></li>
 	<li><a>Become a member</a></li>
 	<li><a>Support Us</a></li>
-	<li><a>News</a></li>
+	<li><a href="news.html">News</a></li>
 		<div class="dropdown">
-	<button class="dropbtn">Artists</button>
+	<a href="people.html"><button class="dropbtn">People</button></a>
 	<div class="dropdown-content">
-		<a>Link 1</a>
-		<a>Link 2</a>
-		<a>Link 3</a>
-		<a>Link 4</a>
+	<p style="text-decoration: underline; background-color: white;">Life Members</p>
+		<a href="jacintapayne.html">Jacinta Payne</a>
+		<a href="caroldallosto.html">Carol Dall'Osto</a>
+		<a href="alannixon.html">Alan Nixon</a>
+		<p style="text-decoration: underline; background-color: white;">Guest Conductors</p>
+		<a href="mariodobernig.html">Mario Dobernig</a>
+		<a href="markshiell.html">Mark Shiell</a>
+		<a href="raymondyong.html">Raymond Yong</a>
+		<p style="text-decoration: underline; background-color: white;">Guest Artists</p>
+		<a href="compartistal.html">Adam Lopez</a>
+		<a href="compartist2.html">Arthur Athan</a>
+		<a href="rebeccachan.html">Rebecca Chan</a>
 	</div>
 	</div>
 </ul>
+<div id="body">
 <div class="content">
 <div class="contentleft">
 <div class="contentright">
+<div class="slideshow-container">
+	<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="images/slide1.jpg" style="width:100%">
+    <span class="slbutton"><a href="people.html">People</a></span>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slide2.jpg" style="width:100%">
+    <span class="slbuttonju"><a>Join Us</a></span>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slide3.jpg" style="width:100%">
+    <span class="slbuttonsp"><a>Support Us</a></span>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+<br>
+
+<div style="text-align:center">
+ 
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+<a><button class="memberbox"><h1>Become a Member</h1></button></a>
+<div class="querybox"><p Class="hbtitle">Querry</p>
+<form class="queryform" action=>
+	Name: <br>
+	<input type="text" name="Name"><br><br>
+	Email:<br>
+	<input type="email" name="Email"><br><br>
+	Querry:<br>
+	<textarea name="Querry" cols="22" rows="7"></textarea><br><br>
+</form>
+<button class="querysubmit" onClick="querryconfirmation()">Submit</button>
+</div>
+<div class="eventsbox"><p class="hbtitle">Events/news</p>
+<form class="eventsform">
+	Name:<br>
+	<input type="text" name="Name"><br><br>
+	Email:<br>
+	<input type="email" name="Email"><br><br>
+</form>
+<button class="eventssignup" onclick="newsletter()">Sign up</button>
+</div>
+<div class="artistsbox"><p class="hbtitle">Artists</p>
+<a href="compartistal.html">
+<figure>
+<img src="images/adamlopaz.jpg" alt="adam lopaz" style="width:80%; height:100px; padding:0 auto; border: thin solid black;">
+<figcaption class="abcap">Adam Lopaz</figcaption>
+</figure>
+</a>
+<a href="compartist2.html">
+<figure>
+<img src="images/arthurathan.jpg" alt="arthur athan" style="width:80%; height:100px; margin-left:0px; border: thin solid black;">
+<figcaption class="abcap">Arthur Athan</figcaption>
+</figure>
+</a>
+<a href="raymondyong.html">
+<figure>
+<img src="images/raymondyong.jpg" alt="raymond yong" style="width:80%; height:100px; margin-left:0px; border: thin solid black;">
+<figcaption class="abcap">Raymond Yong</figcaption>
+</figure>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="sponsors"><img src="images/sponsor1.jpg" alt="Sponsors" style="height: 100px; width: 100%;"></div>
+<div class="copyright">Copyright 2017</div>
 </div>
 </div>
 </body>
-<footer><div class="sponsors"><img src="images/sponsor1.jpg" alt="Sponsors" style="height: 100px; width: 100%;"></div></footer>
-<footer class="copyright">Copyright 2017</footer>
 </html>
