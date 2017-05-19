@@ -4,25 +4,33 @@
 <meta charset="utf-8">
 <title>Barrier Reef Orchestra - Contact Us</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="javascript.js"></script>
 </head>
 <!--To lock page copy .artistpage class elements-->
 <body>
-<div id=body>
-<div class="banner"><img src="images/banner.jpg" alt="banner"></div>
+<div id="body">
+<div class="banner"><a href="home.html"><img src="images/banner.jpg" alt="banner"></a></div>
 <ul class="navigation">
-	<li class="leftline"><a>Contact Us</a></li>
-	<li><a>About Us</a></li>
-	<li><a>Events</a></li>
-	<li><a>Become a member</a></li>
-	<li><a>Support Us</a></li>
-	<li><a>News</a></li>
-	<div class="dropdown">
-	<button class="dropbtn">Artists</button>
+	<li class="leftline"><a href="contactus.html">Contact Us</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="supportus.html">Support Us</a></li>
+	<li><a href="news.html">News</a></li>
+		<div class="dropdown">
+	<a href="people.html"><button class="dropbtn">People</button></a>
 	<div class="dropdown-content">
-		<a>Link 1</a>
-		<a>Link 2</a>
-		<a>Link 3</a>
-		<a>Link 4</a>
+	<p style="text-decoration: underline; background-color: white;">Life Members</p>
+		<a href="jacintapayne.html">Jacinta Payne</a>
+		<a href="caroldallosto.html">Carol Dall'Osto</a>
+		<a href="alannixon.html">Alan Nixon</a>
+		<p style="text-decoration: underline; background-color: white;">Guest Conductors</p>
+		<a href="mariodobernig.html">Mario Dobernig</a>
+		<a href="markshiell.html">Mark Shiell</a>
+		<a href="raymondyong.html">Raymond Yong</a>
+		<p style="text-decoration: underline; background-color: white;">Guest Artists</p>
+		<a href="compartistal.html">Adam Lopez</a>
+		<a href="compartist2.html">Arthur Athan</a>
+		<a href="rebeccachan.html">Rebecca Chan</a>
 	</div>
 	</div>
 </ul>
@@ -66,9 +74,9 @@ Please complete the details below and press Submit, or download the form to comp
 Cheques are to be made payable to North Queensland Ensembles Inc. Direct Debit to BSB 034-222 Account No. 173922.<br><br>
 <form>
 I wish to become a Barrier Reef Orchestra Benefactor and Contribute $
-<br><input type="text"> by Cheque<input type="checkbox" name="banktype1" value="cheque">Eftpos  
-<input type="checkbox" name="banktype2" value="Eftpos">Cash  
-<input type="checkbox" name="banktype3" value="Cash">
+<br><input type="text"> by Cheque<input type="radio" name="banktype" value="cheque">Eftpos  
+<input type="radio" name="banktype" value="Eftpos">Cash  
+<input type="radio" name="banktype" value="Cash">
 <br><br>
 Please place me on the benefactor roll as:
 <br><input type="text">
@@ -82,19 +90,15 @@ Your Email:
 Phone:
 <br><input type="text">
 <br><br>
-<input type="submit">
-
-
-
-
 </form>
+<button onclick="support()">Submit</button>
 </div>
 </div>
 </div>
-<div class="footer">
+</div>
+   <div class="footer">
 <div class="sponsors"><img src="images/sponsor1.jpg" alt="Sponsors" style="height: 100px; width: 100%;"></div>
 <div class="copyright">Copyright 2017</div>
-</div>
 </div>
     </div>
 </body>

@@ -33,3 +33,9 @@ function reserve() {
 function newsletter(){
 	alert("Thank you for signing up!")
 }
+function contact(){
+	alert("We will send a response within the next 48 hours, thank you!")
+}
+function support(){
+	alert("Thank you for the support! We will send you a confirmation email shortly.")
+}
